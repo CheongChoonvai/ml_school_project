@@ -1,15 +1,69 @@
-# Machine Learning Models for CamCare Hospital Management System
+# Machine Learning Models for OncoPredictAI
 
 ## Overview
 
-The CamCare Hospital Management System implements multiple machine learning models, each specifically selected to address the unique healthcare challenges in Cambodia. These models are optimized for:
+The OncoPredictAI system applies advanced machine learning techniques to global cancer datasets for predicting patient outcomes and optimizing treatment strategies. These models are specifically optimized for:
 
-1. **Resource Efficiency**: Designed to operate on limited hardware resources available in Cambodian hospitals
-2. **Interpretability**: Outputs are understandable for healthcare staff with varying levels of AI familiarity
-3. **Robustness**: Can handle noisy and incomplete data common in transitioning healthcare systems
-4. **Offline Capability**: Core functionality works with intermittent connectivity
-5. **Bilingual Support**: Designed to work with both Khmer and English inputs/outputs
+1. **Cancer Risk Stratification**: Identifying high-risk patients based on genetic, environmental, and lifestyle factors
+2. **Treatment Outcome Prediction**: Forecasting survival years and severity scores based on patient characteristics
+3. **Resource Optimization**: Maximizing healthcare resource allocation for cancer treatment
+4. **Interpretable Insights**: Providing clear explanations of predictions for healthcare professionals
+5. **Cross-Cultural Application**: Models that can be adapted for use in various healthcare systems, including resource-constrained environments
 
+## Dataset Information
+
+### 1. Global Cancer Patients Dataset
+
+The models in this project can be trained and evaluated using the Global Cancer Patients dataset (2015-2024), which provides comprehensive cancer statistics that can be adapted for the Cambodian healthcare context:
+
+- **Dataset Source**: [Global Cancer Patients Dataset on Kaggle](https://www.kaggle.com/datasets/zahidmughal2343/global-cancer-patients-2015-2024?resource=download)
+- **Contents**: Contains global cancer statistics including patient demographics, cancer types, treatment outcomes, and temporal trends
+- **Application**: This dataset can be used to train the clustering, PCA, and predictive models in this project
+- **Location**: Download the CSV files from the Kaggle link and place them in the `data/` directory of this project
+- **Recommended Algorithms**:
+  - K-means Clustering: For patient segmentation and risk factor analysis
+  - PCA: For dimensionality reduction and identifying key contributing factors
+  - XGBoost/Random Forest: For predicting severity scores and treatment outcomes
+  - Light GBM: For resource utilization optimization
+
+### 2. Chest X-ray Pneumonia Dataset
+
+For medical imaging analysis in our system, we use the Chest X-ray Pneumonia dataset:
+
+- **Dataset Source**: [Chest X-ray Pneumonia Dataset on Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+- **Contents**: Contains chest X-ray images categorized into normal and pneumonia cases
+- **Application**: This dataset can be used to train computer vision models for diagnostic support
+- **Location**: Download the dataset using the provided script and store in the `data/` directory
+- **Recommended Algorithms**:
+  - Convolutional Neural Networks (CNNs): For image classification
+  - Transfer Learning with pre-trained models: To maximize performance with limited training data
+
+### Automatic Dataset Download
+
+To automatically download the datasets using the kagglehub library:
+
+```python
+# Install the required package
+pip install kagglehub
+
+# Use the provided download script
+python data/download_dataset.py
+```
+
+Alternatively, use the kagglehub library directly in your code:
+
+```python
+import kagglehub
+
+# Download latest version of the Global Cancer Patients dataset
+path = kagglehub.dataset_download("zahidmughal2343/global-cancer-patients-2015-2024")
+
+# Download latest version of the Chest X-ray Pneumonia dataset
+path_xray = kagglehub.dataset_download("paultimothymooney/chest-xray-pneumonia")
+
+print("Path to cancer dataset files:", path)
+print("Path to X-ray dataset files:", path_xray)
+```
 ## Current ML Implementation
 
 The ml_library currently includes the following custom implementations:

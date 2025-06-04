@@ -1,256 +1,251 @@
-# AI-Enhanced Hospital Management System for Cambodia
+# OncoPredictAI: Cancer Prediction and Analysis System
 
 ## Project Title
-**CamCare: Intelligent Hospital Management System with AI/ML Integration for Cambodia's Healthcare System**
+**OncoPredictAI: Machine Learning Framework for Global Cancer Data Analysis and Prediction**
 
 ## Societal or Industrial Impact
-The CamCare Hospital Management System represents a transformative advancement for Cambodia's healthcare sector by integrating artificial intelligence and machine learning. This system addresses critical healthcare challenges specific to Cambodia:
+OncoPredictAI represents a significant advancement in cancer data analysis and prediction through innovative machine learning approaches. This system addresses critical challenges in oncology care worldwide:
 
-- **Bridging the Digital Healthcare Gap**: Most Cambodian hospitals still use paper-based or semi-digital systems. CamCare will be a pioneering digital solution in this emerging market.
+- **Data-Driven Cancer Risk Assessment**: Leverages multiple risk factors (genetic, environmental, lifestyle) to identify high-risk individuals for early intervention.
 
-- **Improving Patient Care in Resource-Limited Settings**: Reduces wait times, optimizes limited resources, and enhances patient experience through AI-driven analytics tailored to Cambodia's healthcare realities.
+- **Treatment Optimization**: Reduces healthcare costs while improving patient outcomes through ML-based prediction of treatment effectiveness and resource allocation.
 
-- **Increasing Operational Efficiency**: Addresses overcrowding and understaffing by optimizing scheduling, resource allocation, and inventory management in the Cambodian healthcare context.
+- **Clinical Decision Support**: Enhances clinical decision-making with interpretable ML models that provide evidence-based insights on cancer severity and survival predictions.
 
-- **Reducing Administrative Burden**: Automates routine tasks and documentation in both Khmer and English languages, allowing Cambodia's healthcare professionals to focus more on patient care.
+- **Global Cancer Pattern Analysis**: Identifies worldwide patterns and trends in cancer prevalence, treatment costs, and outcomes across different regions and demographics.
 
-- **Enhancing Healthcare Accessibility**: Improves service delivery in both urban hospitals and rural health centers through a scalable solution adaptable to various resource levels across Cambodia.
+- **Resource Allocation Improvements**: Optimizes healthcare resource distribution through predictive modeling of treatment costs and patient needs.
 
-- **Creating a Model System**: Establishes a benchmark implementation that can be adopted by both public and private hospitals throughout Cambodia and potentially other developing nations in Southeast Asia.
+- **Accessible Cancer Analytics**: Provides powerful analytical tools that can be deployed in various healthcare settings, from advanced research hospitals to resource-constrained environments.
 
 ## Problem Statement
-Cambodia's healthcare system faces unique challenges that significantly impact care delivery:
+Cancer care globally faces significant challenges that can be addressed through advanced analytics and machine learning:
 
-1. **Digital Divide in Healthcare**: Predominantly paper-based systems cause inefficiencies, data silos, and limited analytics capabilities across Cambodian hospitals.
+1. **Complex Risk Factor Interactions**: Multiple risk factors (genetic, environmental, lifestyle) interact in complex ways that are difficult to analyze with traditional methods.
 
-2. **Resource Constraints**: Severe limitations in healthcare staff, medical equipment, and facilities, particularly in rural areas, creating inequitable access to care.
+2. **Treatment Selection Optimization**: Identifying the most effective treatments for specific cancer types and patient profiles remains challenging with high costs of suboptimal choices.
 
-3. **Manual Administrative Processes**: Time-consuming paperwork and error-prone record-keeping reducing staff productivity and introducing potential patient safety issues.
+3. **Resource Allocation Inefficiencies**: Limited healthcare resources are often not allocated optimally, leading to unnecessary expenses and reduced patient outcomes.
 
-4. **Urban-Rural Healthcare Disparity**: Concentration of healthcare resources in urban centers (particularly Phnom Penh) with limited access in rural provinces where the majority of the population resides.
+4. **Survival Prediction Accuracy**: Current methods for predicting cancer severity and patient survival can lack precision, impacting treatment planning and patient counseling.
 
-5. **Language and Literacy Barriers**: Need for systems that can accommodate varying levels of digital literacy and support both Khmer and English interfaces.
+5. **Data Heterogeneity**: Cancer data is often siloed across different healthcare systems and countries, limiting insights that could be gained from comprehensive analysis.
 
-6. **Interrupted Care Continuity**: Lack of centralized patient records leading to fragmented care and repeated diagnostic testing when patients visit different facilities.
+6. **Global Cancer Pattern Understanding**: Insufficient tools exist for analyzing global patterns in cancer incidence, progression, and treatment effectiveness across different regions.
 
 ## Research Questions (What, Why and How)
 
 ### What?
-- What patterns in Cambodia's hospital operations data can predict resource needs and bottlenecks before they occur in both urban and rural settings?
-- What patient flow optimizations can reduce wait times in overcrowded Cambodian hospitals while maintaining quality of care?
-- What early warning indicators can identify patients at risk for complications given Cambodia's specific disease burden and healthcare constraints?
-- What staffing models optimize healthcare delivery in settings with critical healthcare worker shortages?
-- What adaptations are needed to implement AI solutions in settings with variable internet connectivity and digital infrastructure?
+- What combinations of risk factors (genetic, environmental, lifestyle) most accurately predict cancer severity and survival outcomes?
+- What patterns in global cancer data reveal regional differences in cancer types, treatment effectiveness, and patient outcomes?
+- What machine learning approaches best capture the complex relationships between patient characteristics and cancer progression?
+- What key features from cancer datasets provide the most predictive power for treatment cost estimation?
+- What clustering methods can effectively identify previously unknown patient subgroups with similar cancer profiles?
 
 ### Why?
-- Why do certain departments in Cambodian hospitals experience recurring resource constraints despite scheduling adjustments?
-- Why do similar patients in Cambodia sometimes experience vastly different lengths of stay or treatment outcomes compared to regional averages?
-- Why do traditional hospital management approaches from developed countries fail to translate effectively to Cambodia's healthcare environment?
-- Why do current digital transformation efforts in Cambodia's healthcare system often fail to achieve sustained adoption?
-- Why are certain healthcare facilities in Cambodia more resilient to operational challenges than others?
+- Why do certain cancer risk factors have different impacts across various demographics and regions?
+- Why do similar cancer patients sometimes experience significantly different treatment outcomes and survival rates?
+- Why are certain cancer types more responsive to particular treatment approaches in different patient populations?
+- Why do treatment costs for similar cancer cases vary widely across different healthcare systems and regions?
+- Why have traditional cancer prediction models often failed to generalize across diverse patient populations?
 
 ### How?
-- How can we integrate diverse hospital data sources in a system that accommodates both paper and digital records during transition?
-- How can we develop ML models that provide actionable insights while remaining interpretable to Cambodian healthcare administrators with varying levels of AI familiarity?
-- How can AI tools be seamlessly incorporated into existing Cambodian hospital workflows without disrupting care delivery or requiring extensive retraining?
-- How can the system be designed to function effectively in settings with limited or intermittent internet connectivity, particularly in rural provinces?
-- How can we ensure data security and patient privacy while enabling powerful analytics in a developing regulatory environment?
+- How can we integrate diverse cancer data sources to create comprehensive predictive models that account for genetic, environmental, and lifestyle factors?
+- How can we develop ML models that provide actionable insights while remaining interpretable to healthcare providers of varying technical backgrounds?
+- How can we leverage dimensionality reduction techniques to identify the most relevant features from high-dimensional cancer datasets?
+- How can we design systems that optimize resource allocation for cancer treatment while maintaining or improving patient outcomes?
+- How can we ensure that predictive cancer models are equitable and perform consistently across different patient populations?
 
 ## Contributions
-This project makes several significant contributions to hospital management and healthcare technology in Cambodia:
+This project makes several significant contributions to cancer prediction, analysis, and treatment optimization:
 
-1. **Culturally-Adapted Digital Architecture**: A first-of-its-kind system designed specifically for Cambodia's healthcare context that connects previously paper-based systems with modern digital solutions.
+1. **Multi-factor Risk Analysis**: A comprehensive system that integrates genetic, environmental, and lifestyle factors to predict cancer severity and outcomes.
 
-2. **Bilingual System Design**: Full support for both Khmer and English languages throughout the interface and documentation features.
+2. **Treatment Optimization Framework**: Machine learning models that identify the most effective treatment approaches for specific cancer types and patient profiles.
 
-3. **Offline-Capable Operations**: Core functionalities that continue to operate during internet outages, with intelligent synchronization when connectivity is restored.
+3. **Resource Allocation Intelligence**: Data-driven algorithms to optimize healthcare resource distribution for cancer care, reducing costs while improving outcomes.
 
-4. **Resource-Optimized AI**: Machine learning algorithms specifically trained on Cambodian healthcare data to forecast patient volumes, optimize staffing, and improve resource allocation.
+4. **Global Cancer Pattern Discovery**: Tools for identifying worldwide patterns in cancer incidence, progression, and response to treatment across different regions.
 
-5. **Rural Healthcare Support**: Special features designed for smaller health centers with limited staff and infrastructure, including simplified interfaces and mobile compatibility.
+5. **Interpretable Prediction Models**: Cancer prediction models that provide not only accurate forecasts but also transparent explanations of risk factors and their relationships.
 
-6. **Telemedicine Integration**: AI-enhanced remote consultation capabilities to connect rural patients with specialists in urban centers or international partners.
+6. **Patient Clustering Innovation**: Novel approaches to patient segmentation that reveal previously unidentified subgroups with similar cancer characteristics and outcomes.
 
-7. **Adaptive Learning System**: Models that continuously improve based on local usage patterns and outcomes, growing more effective with Cambodia-specific data over time.
+7. **Adaptive Analysis System**: Models that continuously improve as new cancer data becomes available, incorporating emerging research and treatment approaches.
 
 ## Dataset (Primary/Secondary)
 
-### Primary Datasets
-1. **Cambodian Hospital Records**
-   - Patient demographics, diagnoses, treatments specific to Cambodia
-   - Clinical notes and test results from partnering Cambodian hospitals
-   - Admission, discharge, and transfer records from public and private facilities
-   - Source: Partnering hospitals in Phnom Penh and provincial centers (anonymized)
+### Primary Dataset
+1. **Global Cancer Patients Dataset (2015-2024)**
+   - 50,000 patient records with comprehensive cancer information
+   - Patient demographics, including age, gender, and geographic region
+   - Risk factors: genetic predisposition, air pollution exposure, alcohol use, smoking habits, obesity levels
+   - Cancer details: cancer types, stages, treatment costs, survival years
+   - Severity scores for outcome prediction
+   - Source: [Kaggle - Global Cancer Patients Dataset](https://www.kaggle.com/datasets/zahidmughal2343/global-cancer-patients-2015-2024)
 
-2. **Cambodia Ministry of Health Data**
-   - National health statistics and healthcare facility information
-   - Disease surveillance data specific to Cambodia
-   - Healthcare workforce distribution
-   - Source: Cambodia Ministry of Health databases and reports
+### Secondary Dataset
+1. **Chest X-ray Pneumonia Dataset**
+   - Medical imaging data for pneumonia detection
+   - Categories: normal X-rays and pneumonia cases
+   - Potential for future integration into a comprehensive cancer care system
+   - Source: [Kaggle - Chest X-ray Pneumonia Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
-3. **Operational Data from Pilot Facilities**
-   - Staff scheduling and attendance in Cambodian healthcare settings
-   - Resource utilization patterns specific to Cambodia
-   - Patient flow timestamps in various hospital settings
-   - Department performance metrics from pilot implementation sites
-   - Source: Initial implementation sites in urban and rural settings
+### Additional Data Sources (For Future Expansion)
+1. **Cancer Genomics Datasets**
+   - Genetic mutation data
+   - Gene expression profiles
+   - Potential sources: The Cancer Genome Atlas (TCGA), International Cancer Genome Consortium (ICGC)
 
-### Secondary Datasets
-1. **WHO Cambodia Health Profile**
-   - Country-specific health indicators and benchmarks
-   - Regional healthcare comparisons
-   - Source: World Health Organization
+2. **Clinical Trial Outcomes**
+   - Treatment efficacy data
+   - Drug response information
+   - Potential source: ClinicalTrials.gov
 
-2. **Southeast Asian Hospital Operations Data**
-   - Benchmark data from neighboring countries with similar resource constraints
-   - Adaptable best practices from Thailand, Vietnam, and Malaysia
-   - Source: Regional healthcare partners and research institutions
-
-3. **Global Digital Health Implementation Case Studies**
-   - Lessons learned from digital health implementations in similar resource-limited settings
-   - Success and failure patterns from other developing nations
-   - Source: International health organizations and academic publications
+3. **Regional Cancer Registries**
+   - Region-specific cancer statistics
+   - Survival rates by country and healthcare system
+   - Potential sources: WHO Cancer Registry, National Cancer Registries
 
 ## Methodology
-Our approach follows a comprehensive end-to-end machine learning pipeline customized for Cambodia's healthcare environment:
+Our approach follows a comprehensive end-to-end machine learning pipeline for global cancer data analysis and prediction:
 
-1. **Contextual Analysis and System Design**
-   - On-site workflow observation at Cambodian hospitals
-   - Stakeholder interviews with healthcare staff at all levels
-   - Cultural and linguistic adaptation of interfaces and algorithms
-   - Paper-to-digital transition strategy development
+1. **Data Collection and Integration**
+   - Integration of diverse global cancer datasets from multiple sources
+   - Harmonization of data formats and standards across different healthcare systems
+   - Creation of a unified data repository with appropriate privacy protections
+   - Comprehensive data quality assessment and validation procedures
 
-2. **Data Integration and Preprocessing**
-   - Creating digital infrastructure for paper-based systems
-   - Developing bilingual data entry and retrieval systems
-   - Cleaning and normalizing heterogeneous data sources
-   - Handling missing values through contextually-appropriate imputation techniques
+2. **Data Preprocessing and Feature Engineering**
+   - Handling missing values through advanced imputation techniques
+   - Normalizing heterogeneous data from diverse global sources
+   - Creating standardized features across different cancer types and healthcare systems
+   - Developing culturally and regionally sensitive variables to capture geographical variations
 
-3. **Feature Engineering for Cambodian Context**
-   - Creating operational KPIs relevant to Cambodia's healthcare goals
-   - Extracting temporal patterns specific to Cambodian hospital operations
-   - Developing patient flow metrics adapted to local practices
-   - Incorporating domain knowledge from Cambodian healthcare professionals
+3. **Feature Selection and Dimensionality Reduction**
+   - Application of PCA and other dimensionality reduction techniques
+   - Identification of the most predictive factors for cancer outcomes
+   - Selection of features that work consistently across diverse global populations
+   - Balancing model complexity with interpretability for clinical applications
 
-4. **Model Development with Local Calibration**
-   - Training on historical Cambodian hospital operations data
-   - Developing specialized models calibrated for Cambodia's disease burden
-   - Cross-validation accounting for urban-rural differences
-   - Transfer learning from regional models with local fine-tuning
+4. **Model Development and Validation**
+   - Training ensemble models on global cancer data for robust predictions
+   - Cross-validation across different geographical regions and healthcare systems
+   - Development of specialized models for different cancer types and treatment scenarios
+   - Transfer learning to adapt global models to region-specific contexts
 
-5. **Adaptive System Integration and Deployment**
-   - Phased implementation strategy for gradual digital transformation
-   - Hybrid paper-digital workflows during transition periods
-   - Training programs for staff with varying digital literacy levels
-   - Continuous monitoring and localized optimization
+5. **Interpretability and Deployment**
+   - Creation of explainable AI components to clarify predictions for healthcare professionals
+   - Development of interactive visualization tools for complex cancer data patterns
+   - Scalable deployment strategies for diverse healthcare environments
+   - Continuous model monitoring and improvement based on new clinical findings
 
 ## ML Model Selection
 
-We employ multiple machine learning approaches, each carefully selected for Cambodia's healthcare challenges:
+We employ multiple machine learning approaches, each carefully selected for global cancer data analysis and prediction:
 
-| Model | Application | Why Selected for Cambodia |
-|-------|-------------|---------------------------|
-| **Time Series Forecasting (ARIMA, Prophet)** | Patient volume prediction | Captures seasonal disease patterns specific to Cambodia (dengue, malaria, respiratory) |
-| **Light GBM** | Resource utilization | Efficient performance on limited computing hardware available in many Cambodian hospitals |
-| **Random Forest** | Triage optimization | Robust to noisy data common in transitioning systems; interpretable for staff with limited AI exposure |
-| **XGBoost** | Length of stay prediction | Superior performance with limited training data; handles class imbalance common in developing settings |
-| **Ensemble Methods** | Disease outbreak detection | Combines multiple data sources to provide early warnings for Cambodia's specific endemic diseases |
-| **Federated Learning** | Multi-facility modeling | Allows learning across hospitals without centralizing sensitive data, respecting privacy with limited regulatory infrastructure |
+| Model | Application | Why Selected |
+|-------|-------------|--------------|
+| **Time Series Forecasting (ARIMA, Prophet)** | Cancer incidence prediction | Captures temporal trends and seasonal patterns in global cancer incidence rates |
+| **Light GBM** | Resource utilization optimization | Efficient performance for treatment cost predictions and resource allocation planning |
+| **Random Forest** | Risk factor analysis | Robust to noisy data; provides interpretable importance scores for various cancer risk factors |
+| **XGBoost** | Survival prediction | Superior performance with limited training data; handles class imbalance in survival outcome datasets |
+| **Ensemble Methods** | Cancer severity prediction | Combines multiple models to provide robust predictions of cancer progression and severity |
+| **Federated Learning** | Multi-center collaboration | Enables learning across medical institutions globally without centralizing sensitive patient data |
 
 ## Why?
-Our model selection was guided by Cambodia's specific healthcare challenges:
+Our model selection was guided by the complex requirements of global cancer data analysis:
 
-1. **Infrastructure Constraints**:
-   - Models selected to operate efficiently on limited computing hardware
-   - Algorithms chosen for robustness to intermittent connectivity
-   - Methods that can function with smaller initial training datasets
-   - Solutions designed to scale gradually as digital adoption increases
+1. **Data Complexity and Scale**:
+   - Models capable of handling high-dimensional cancer genomic data
+   - Algorithms chosen for robustness to heterogeneous global data sources
+   - Methods that can function effectively with unbalanced outcome classes
+   - Solutions designed to scale to millions of patient records worldwide
 
-2. **Cultural and Practical Considerations**:
-   - Interpretable models that build trust with healthcare staff new to AI systems
-   - Bilingual output generation for both Khmer and English speakers
-   - User interfaces designed for varying levels of digital literacy
-   - Systems that accommodate hybrid paper-digital workflows during transition
+2. **Interpretability and Clinical Utility**:
+   - Transparent models that build trust with clinical oncologists worldwide
+   - Multi-language compatible outputs for global accessibility
+   - Visualizations designed to communicate risk factors to patients with various health literacy levels
+   - Systems that integrate with existing clinical decision support workflows
 
-3. **Healthcare Priorities in Cambodia**:
-   - Focus on optimizing limited resources rather than sophisticated clinical decision support
-   - Emphasis on accessibility and equity between urban and rural settings
-   - Special attention to Cambodia's specific disease burden and seasonal patterns
-   - Models that improve over time as more local data becomes available
+3. **Global Healthcare Priorities**:
+   - Focus on both advanced cancer care and early detection strategies
+   - Emphasis on solutions adaptable to both high-resource and resource-constrained settings
+   - Special attention to differences in cancer types and prevalence across global regions
+   - Models that improve over time as more diverse global data becomes available
 
-4. **Implementation Reality**:
-   - Solutions that can demonstrate early wins to build momentum and adoption
-   - Modular design allowing implementation of high-priority features first
-   - Recognition of the need to train local talent for long-term system maintenance
-   - Acknowledgment of current technical capacity and growth opportunities
+4. **Implementation Flexibility**:
+   - Solutions deployable across various healthcare infrastructures
+   - Modular design allowing implementation based on local priorities and capabilities
+   - Knowledge transfer components for building local cancer analytics expertise
+   - Adaptability to different regulatory frameworks for patient data
 
 ## Evaluation Technique
-We employ evaluation methods specifically designed for Cambodia's healthcare context:
+We employ comprehensive evaluation methods designed for global cancer prediction and analysis:
 
-1. **Real-World Testing**
-   - Pilot implementations in both urban (Phnom Penh) and rural (provincial) healthcare facilities
-   - Shadow testing alongside existing systems before full transition
-   - User experience testing with Cambodian healthcare staff at various digital literacy levels
+1. **Cross-Regional Validation**
+   - Multi-center validation across diverse healthcare settings globally
+   - Testing across different cancer types and patient demographics
+   - User experience testing with oncologists from various countries and practice settings
 
 2. **Performance Metrics**
-   - **Accessibility Metrics**: Percentage of rural facilities effectively using the system
-   - **Operational Metrics**: Wait time reduction in overcrowded settings, resource utilization improvement
-   - **Adoption Metrics**: System usage rates, staff satisfaction, reduced reliance on paper records
-   - **Health Outcome Metrics**: Impact on treatment delays, medical errors, and care coordination
+   - **Clinical Accuracy Metrics**: Sensitivity, specificity, AUC-ROC for cancer detection models
+   - **Survival Prediction Metrics**: C-index, calibration curves, Brier score for prognostic models
+   - **Resource Optimization Metrics**: Cost-effectiveness ratios, resource utilization improvements
+   - **Health Outcome Metrics**: Impact on early detection rates, treatment selection, and patient outcomes
 
-3. **Contextual Analysis**
-   - Comparison with current Cambodian hospital management practices
-   - Assessment of improvements relative to starting baselines rather than global standards
-   - Measurement of digital transformation progress over time
-   - Evaluation of system resilience during connectivity challenges
+3. **Generalizability Analysis**
+   - Evaluation across different healthcare systems, from highly advanced to resource-constrained
+   - Assessment of model performance across various ethnic and demographic groups
+   - Testing model robustness across different data quality levels and missing information scenarios
 
-## Accuracy
-Our models are expected to achieve significant improvements over current Cambodian healthcare management approaches:
+## Expected Performance
+Our models are expected to achieve significant improvements over current cancer prediction and treatment optimization approaches:
 
-| Task | Model | Key Performance Indicator | Expected Improvement |
+| Task | Model | Key Performance Indicator | Expected Performance |
 |------|-------|---------------------------|---------------------|
-| Patient Volume Forecasting | Prophet | Forecast Accuracy | 80% (vs. 60% with manual methods) |
-| Staff Scheduling | Light GBM | Staff Utilization | 25% reduction in overflow shifts |
-| Resource Allocation | Random Forest | Resource Utilization | 30% improvement in critical supply management |
-| Triage Optimization | XGBoost | Patient Wait Time | 40% reduction for urgent cases |
-| Disease Surveillance | Ensemble Methods | Outbreak Detection | 7-14 days earlier warning |
-| Documentation | Rule-based + ML | Completion Rate | 90% (vs. 65% paper records) |
+| Cancer Severity Prediction | XGBoost | AUC-ROC | >0.85 (vs. 0.75 with traditional methods) |
+| Survival Time Prediction | Ensemble Methods | C-index | >0.80 for diverse global populations |
+| Treatment Response | Random Forest | Prediction Accuracy | 75% accuracy across major cancer types |
+| Resource Allocation | Light GBM | Cost Optimization | 20-30% reduction in unnecessary treatment costs |
+| Risk Factor Analysis | PCA + Clustering | Novel Pattern Discovery | Identification of 5+ previously unknown risk factors |
+| Global Pattern Detection | Time Series Models | Trend Forecasting | >90% accuracy for 1-year cancer incidence projections |
 
 ## Hyperparameter Optimization
-We conduct appropriate hyperparameter tuning while considering the computational constraints of Cambodia's healthcare environment:
+We conduct comprehensive hyperparameter tuning to balance predictive performance with computational efficiency:
 
 ```python
-# Example hyperparameters for resource allocation optimization
+# Example hyperparameters for cancer survival prediction
 lgbm_params = {
-    'max_depth': 6,                  # Limited depth for faster inference
-    'learning_rate': 0.05,           # Balanced for learning speed and stability
-    'n_estimators': 200,             # Optimized for limited computing resources
-    'subsample': 0.8,                # Provides robustness to noisy data
-    'colsample_bytree': 0.75,        # Feature sampling for better generalization
-    'min_child_weight': 3,           # Prevents overfitting on limited data
-    'objective': 'binary:logistic',
-    'device': 'cpu',                 # Optimized for CPU-only environments
+    'max_depth': 8,                  # Deeper trees for complex cancer patterns
+    'learning_rate': 0.01,           # Slower learning rate for better convergence
+    'n_estimators': 500,             # More estimators for robust ensemble
+    'subsample': 0.8,                # Subsampling for robustness to outliers
+    'colsample_bytree': 0.75,        # Feature sampling to prevent overfitting
+    'min_child_weight': 3,           # Controls model complexity
+    'objective': 'survival:cox',     # Specialized objective for survival analysis
+    'device': 'auto',                # Optimal device selection based on availability
     'verbose': -1
 }
 ```
 
-Hyperparameter optimization will prioritize models that can run efficiently on the available hardware in Cambodian hospitals while maintaining acceptable performance.
+Hyperparameter optimization follows a rigorous Bayesian optimization approach to identify the most effective configurations for each cancer prediction task.
 
 ## Code Implementation & Submission
-The project codebase is organized with consideration for Cambodia's implementation context:
+The project codebase is organized with a focus on cancer prediction and analysis:
 
 ```
-cambodia-hms/
+oncopredict-ai/
 ├── data/                      # Data processing and integration
-│   ├── paper_entry/           # Tools for digitizing paper records
+│   ├── raw/                   # Original cancer datasets
 │   ├── preprocessing/         # Data cleaning and preparation
-│   └── bilingual/             # Khmer-English translation utilities
+│   └── features/              # Extracted features from cancer data
 │
 ├── models/                    # ML model implementations
-│   ├── forecasting/           # Patient volume prediction
-│   ├── scheduling/            # Staff and resource scheduling
-│   ├── triage/                # Patient flow optimization
-│   └── surveillance/          # Disease monitoring and alerts
+│   ├── classification/        # Cancer type and severity prediction
+│   ├── survival/              # Survival analysis models
+│   ├── clustering/            # Patient segmentation 
+│   └── dimensionality_reduction/ # Feature extraction models
 │
 ├── interfaces/                # User interfaces
 │   ├── dashboard/             # Administrative views
@@ -269,32 +264,32 @@ cambodia-hms/
     └── reports/               # Results analysis
 ```
 
-Code implementation will follow practices optimized for Cambodia's context:
-- Clean, well-documented code with bilingual comments
-- Modular design allowing functionality without full system deployment
-- Offline-first architecture with intelligent synchronization
-- Comprehensive logging for troubleshooting in low-resource settings
-- Minimal dependencies to reduce connectivity requirements
-- Mobile-friendly interfaces for settings with more phones than computers
+Code implementation will follow best practices for scientific research and healthcare applications:
+- Clean, well-documented code with thorough comments
+- Modular design allowing component reuse and extension
+- Robust error handling and validation for clinical reliability
+- Comprehensive logging for model debugging and audit trails
+- Efficient implementations to handle large cancer datasets
+- Cross-platform compatibility for diverse research environments
 
 ## Report Submission
-The final project report will include content specifically addressing Cambodia's healthcare context:
+The final project report will include content specifically addressing cancer prediction challenges:
 
 1. **Executive Summary**
-   - Project objectives aligned with Cambodia's healthcare priorities
-   - Summary of achievements and localized impact
-   - Implementation roadmap specific to Cambodia's healthcare digital transformation
+   - Project objectives aligned with modern oncology research needs
+   - Summary of achievements and clinical impact potential
+   - Implementation roadmap for further research and clinical integration
 
 2. **Contextual Analysis**
-   - Current state of healthcare management in Cambodia
-   - Specific challenges addressed by the CamCare system
-   - Cultural and practical considerations in system design
+   - Current state of cancer prediction methodologies
+   - Specific challenges addressed by the OncoPredictAI system
+   - Clinical considerations in model development and deployment
 
 3. **Technical Implementation**
-   - System architecture designed for Cambodia's infrastructure constraints
-   - Data flow adapted to hybrid paper-digital environments
-   - Security measures appropriate for the local regulatory environment
-   - Localization efforts for Khmer language integration
+   - System architecture designed for healthcare infrastructure integration
+   - Data flow designed for clinical workflow integration
+   - Security measures appropriate for sensitive patient data
+   - Interpretability features for clinician trust and adoption
 
 4. **Change Management Strategy**
    - Staff training approach for varying digital literacy levels

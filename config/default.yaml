@@ -1,0 +1,53 @@
+# Default configuration for the OncoPredictAI project
+
+# Data paths
+data:
+  raw_cancer_data: 'data/raw/cancer_patients/global_cancer_patients_2015_2024.csv'
+  raw_xray_data: 'data/raw/xray_images/chest_xray'
+  processed_data: 'data/processed/cancer_data_processed.csv'
+  feature_data: 'data/features/cancer_features.csv'
+
+# Model parameters
+models:
+  kmeans:
+    n_clusters: 3
+    random_state: 42
+    max_iter: 300
+    tol: 0.0001
+  
+  pca:
+    n_components: 2
+    
+  random_forest:
+    n_estimators: 200
+    max_depth: 6
+    random_state: 42
+    
+  xgboost:
+    max_depth: 6
+    learning_rate: 0.05
+    n_estimators: 200
+    subsample: 0.8
+    colsample_bytree: 0.75
+    min_child_weight: 3
+    objective: 'binary:logistic'
+    device: 'cpu'
+    verbose: -1
+
+# Visualization settings
+visualization:
+  figsize: [12, 8]
+  style: 'whitegrid'
+  palette: 'viridis'
+  dpi: 100
+
+# Training settings
+training:
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+
+# Logging settings
+logging:
+  level: 'INFO'
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

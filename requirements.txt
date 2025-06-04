@@ -1,0 +1,40 @@
+# Core dependencies for OncoPredictAI project
+numpy>=1.22.0
+pandas>=1.4.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+
+# ML frameworks
+# Uncomment as needed
+# xgboost>=1.5.0
+# lightgbm>=3.3.0
+# prophet>=1.0.0
+# tensorflow>=2.8.0
+# torch>=1.11.0
+
+# Data handling
+kagglehub>=0.3.0
+pyyaml>=6.0
+joblib>=1.1.0
+
+# Visualization
+plotly>=5.6.0
+
+# Notebook support
+jupyter>=1.0.0
+ipykernel>=6.9.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Documentation
+sphinx>=4.4.0
+sphinx-rtd-theme>=1.0.0
+
+# Development
+black>=22.1.0
+flake8>=4.0.0
+isort>=5.10.0
+pre-commit>=2.17.0

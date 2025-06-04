@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files
+*.pkl
+*.h5
+*.pt
+*.pb
+*.onnx
+
+# Data
+data/raw/cancer_patients/*.csv
+data/raw/xray_images/*.jpg
+data/raw/xray_images/*.jpeg
+data/raw/xray_images/*.png
+data/processed/*.csv
+
+# Logs
+logs/
+*.log
+
+# Local configuration
+.env
+.env.local
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Documentation builds
+docs/_build/
